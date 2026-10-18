@@ -7,6 +7,6 @@ Module ConexionBD
         "Uid=root;Pwd=12345;"
 
     ' Versión del servidor MariaDB instalado (consulte con: SELECT VERSION();)
-    Public ReadOnly VersionServidor As New Version(11, 4, 0)
+    Public ReadOnly VersionServidor As New Version(13, 0, 2)
 
 End Module
